@@ -1,7 +1,7 @@
 import pytest
 
 
-@pytest.fixture()#дія до тог як ми запутимо систему
+@pytest.fixture()#дія до тог як ми запустимо систему
 
 def set_up():
     print('Вхід в систему')
